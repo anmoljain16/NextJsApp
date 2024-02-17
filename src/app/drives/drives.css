@@ -1,0 +1,96 @@
+body{
+    background: #0f0f0f;
+}
+.box{
+    display: flex;
+    margin: 20px;
+    border-radius: 50px;
+    background: transparent;
+
+    padding: 2.25em;
+    width: 198vh;
+    height: 100vh;
+
+}
+.app {
+    margin-right: 30px;
+    border-radius: 22px;
+    background: #353535;
+    flex-direction: column;
+    padding-left: 2.28em ;
+    padding-top: 2.28em ;
+
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    height: 99%;
+    overflow: auto;
+
+
+}
+
+.app::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+
+.drive{
+    align-items: center;
+    /*display: flex;*/
+    margin-bottom: 22px;
+    /*border-radius: 20px;*/
+    /*background: #736161;*/
+    /**/
+    color: #e5e5e5;
+    /*background: rgba( 255, 255, 255, 0.25 );*/
+    background:#0f0f0f ;
+    box-shadow: 0 8px 32px 0 rgba(171, 171, 176, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 40vh;
+    height: 13vh;
+    overflow: auto;
+    padding: 0.9em;
+}
+.drive::-webkit-scrollbar
+{
+    display: none;
+}
+
+.drive .drive-name{
+    font-size: 1.5em;
+    color: #f8fafc;
+    margin-bottom: 0.5em;
+
+}
+
+.drivepage{
+    border-radius: 22px;
+    /*background: #504f4f;*/
+    /*background: #353535;*/
+
+    /*box-shadow:  -35px 35px 70px #cfcfcf,*/
+    /*35px -35px 70px #ffffff;*/
+    flex-direction: column;
+    padding-left: 2.28em ;
+    width: 100%;
+    height: 99%;
+    overflow: auto;
+}
+
+.drivepage iframe{
+
+        width: 100%;
+        height: 100%;
+        border: none;
+
+}
+iframe::-webkit-scrollbar
+{
+    display: none;
+}
+
